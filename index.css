@@ -1,0 +1,12 @@
+body {
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(21,82,100,1) 80%);
+}
+
+.listNav {
+    background-color: #155264;
+}
+
+.listNav li {
+    display: inline;
+}
