@@ -1,12 +1,39 @@
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
 body {
+    margin: 0%;
     height: 100vh;
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(21,82,100,1) 80%);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(21,82,100,1) 90%);
+}
+
+nav {
+    margin: 0px;
+    height: 20%;
+    width: auto;
 }
 
 .listNav {
-    background-color: #155264;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 0%;
+}
+
+#logo {
+
 }
 
 .listNav li {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    padding-bottom: 45px;
+    margin: 5%;
+    align-content: center;
     display: inline;
+}
+
+.listNav li a {
+    text-decoration: none;
+    color: white;
 }
