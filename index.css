@@ -25,12 +25,12 @@ nav {
 }
 
 .listNav li {
+    display: inline-block;
     font-family: 'Playfair Display', serif;
     font-size: 24px;
-    padding-bottom: 45px;
-    margin: 5%;
-    align-content: center;
-    display: inline;
+    width: 20%;
+    height: 50%;
+    
 }
 
 .listNav li a {
